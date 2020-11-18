@@ -1,1 +1,78 @@
 /* Insert your homepage styling here! */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 20px;
+}
+
+.navbar {
+  overflow: hidden; /* overflow goes on new line. also puts next element on new line */
+}
+
+.navbar a {
+  float: left;
+  color: rgb(134, 128, 128);
+  text-align: center;
+  padding: 15 px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  /* when you hover over it */
+  background-color: #ddd;
+}
+
+.header {
+  text-align: center;
+}
+
+.description {
+  margin: 20px 40 px;
+}
+
+.profile-img {
+  width: 200px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.interest {
+  width: 250px;
+  float: left;
+  border-style: dashed;
+}
+
+.interest {
+  width: 250px;
+  float: left;
+  border-style: dashed;
+}
+.hobbies {
+  width: 250px;
+  float: right;
+  border-style: dashed;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18 px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18 px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
